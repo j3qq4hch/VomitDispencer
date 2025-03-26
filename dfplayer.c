@@ -1,11 +1,12 @@
 #include "dfplayer.h"
 
-static volatile dfplayer_t dfplayer_request = {
+static dfplayer_t dfplayer_request = {
     .start = 0x7E,
     .version = 0xFF,
     .length = 6,
     .end = 0xEF
 };
+
 
 static volatile dfplayer_t dfplayer_response = {
     .start = 0x7E,
@@ -16,7 +17,7 @@ static volatile dfplayer_t dfplayer_response = {
 
 static void _update_checksum() {
 
-    volatile int16_t acc = 0;
+    int16_t acc = 0;
 
     acc += dfplayer_request.version;
     acc += dfplayer_request.length;
@@ -31,14 +32,30 @@ static void _update_checksum() {
     dfplayer_request.checksum_L = acc;
 }
 
-void _send_command(dfplayer_cmd_t command, uint16_t param) {
+void _request_serialize(uint8_t * buf)
+{
+    *buf++ = dfplayer_request.start;
+    *buf++ = dfplayer_request.version;
+    *buf++ = dfplayer_request.length;
+    *buf++ = dfplayer_request.command;
+    *buf++ = dfplayer_request.feedback;
+    *buf++ = dfplayer_request.param_H;
+    *buf++ = dfplayer_request.param_L;
+    *buf++ = dfplayer_request.checksum_H;
+    *buf++ = dfplayer_request.checksum_L;
+    *buf++ = dfplayer_request.end;
+}
 
+static uint8_t databuf[10]; 
+
+void _send_command(dfplayer_cmd_t command, uint16_t param) 
+{
     dfplayer_request.command = (uint8_t) command;
     dfplayer_request.param_H = (param >> 8);
     dfplayer_request.param_L = param;
     _update_checksum();
-
-    uart_send_buf((const uint8_t *) dfplayer_request, sizeof(dfplayer_t));
+    _request_serialize(databuf);
+    uart_send_buf(databuf, sizeof(databuf));
 }
 
 bool _get_response() {
@@ -69,7 +86,9 @@ void dfplayer_init() {
 uint16_t dfplayer_get_tracks() {
     _send_command(0x48, 0);
     _get_response();
-    return (dfplayer_response.param_H << 8 | dfplayer_response.param_L);
+    uint16_t n = dfplayer_response.param_H << 8;
+    n |= dfplayer_response.param_L;
+    return n;
 }
 
 void dfplayer_set_volume(uint8_t volume) {

@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\VomitDispencer\EWSTM8\settings\Project.STM8S208.general.xcl" --backend -f "C:\VomitDispencer\EWSTM8\settings\Project.STM8S208.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\github\VomitDispencer\EWSTM8\settings\Project.STM8S208.general.xcl" --backend -f "C:\github\VomitDispencer\EWSTM8\settings\Project.STM8S208.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\VomitDispencer\EWSTM8\settings\Project.STM8S208.general.xcl" --debug_file=$debugfile --backend -f "C:\VomitDispencer\EWSTM8\settings\Project.STM8S208.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\github\VomitDispencer\EWSTM8\settings\Project.STM8S208.general.xcl" --debug_file=$debugfile --backend -f "C:\github\VomitDispencer\EWSTM8\settings\Project.STM8S208.driver.xcl" 
 }
