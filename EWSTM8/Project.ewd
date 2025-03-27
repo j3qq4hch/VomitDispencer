@@ -2,7 +2,7 @@
 <project>
     <fileVersion>3</fileVersion>
     <configuration>
-        <name>STM8S208</name>
+        <name>VomitDispenser</name>
         <toolchain>
             <name>STM8</name>
         </toolchain>
@@ -48,7 +48,7 @@
                 </option>
                 <option>
                     <name>CSpyDDFFile</name>
-                    <state>$TOOLKIT_DIR$\config\ddf\iostm8s208mb.ddf</state>
+                    <state>$TOOLKIT_DIR$\config\ddf\iostm8s003f3.ddf</state>
                 </option>
                 <option>
                     <name>CSpyEnableExtraOptions</name>

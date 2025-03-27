@@ -21,7 +21,8 @@ typedef enum dfplayer_cmd {
     CMD_PAUSE               = 0x0E,
     CMD_FOLDER              = 0x0F,
     CMD_VOL_ADJ             = 0x10,
-    CMD_REPEAT              = 0x11
+    CMD_REPEAT              = 0x11,
+    CMD_GET_TRACKS_NUM      = 0x48
 } dfplayer_cmd_t;
 
 typedef enum dfplayer_mode {

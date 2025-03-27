@@ -84,7 +84,7 @@ void dfplayer_init() {
 }
 
 uint16_t dfplayer_get_tracks() {
-    _send_command(0x48, 0);
+    _send_command(CMD_GET_TRACKS_NUM, 0);
     _get_response();
     uint16_t n = dfplayer_response.param_H << 8;
     n |= dfplayer_response.param_L;

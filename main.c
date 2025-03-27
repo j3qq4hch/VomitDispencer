@@ -7,20 +7,24 @@
 pin_t df_pwren_pin = {GPIOD, GPIO_PIN_4};
 pin_t df_busy_pin  = {GPIOD, GPIO_PIN_3};
 //pin_t isr_pin      = {GPIOB, GPIO_PIN_4};
-
+#define VOLUME 20
+uint16_t tracks = 0;
+uint16_t n = 1;
 void main(void)
 {
- 
   GPIO_Init (df_pwren_pin.port, df_pwren_pin.pin, GPIO_MODE_OUT_PP_LOW_SLOW);
   //GPIO_Init (isr_pin.port, isr_pin.pin, GPIO_MODE_OUT_PP_LOW_SLOW);
+  //CLK_HSIPrescalerConfig(CLK_PRESCALER_HSIDIV1);
   UART1_Init((uint32_t)9600, UART1_WORDLENGTH_8D, UART1_STOPBITS_1, UART1_PARITY_NO, UART1_SYNCMODE_CLOCK_DISABLE, UART1_MODE_TXRX_ENABLE);
-
-  dfplayer_init();
+  dfplayer_reset();
+  dfplayer_wait_for_init();
+  dfplayer_set_volume(VOLUME);
+  tracks = dfplayer_get_tracks();
+  
   while (1)
   {
-    pin_set(&df_pwren_pin);
-    pin_reset(&df_pwren_pin);
-    asm("NOP");
+    dfplayer_set_track(n++);
+    if(n > tracks) n = 1;
   }
 }
 

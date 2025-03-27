@@ -1,25 +1,25 @@
-dfplayer.pbi: \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdbool.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_wwdg.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_uart1.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_tim4.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_tim2.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_tim1.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_spi.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_rst.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_iwdg.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_itc.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_i2c.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_gpio.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_flash.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_exti.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_clk.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_beep.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_awu.h \
-  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_adc1.h \
-  C:\github\VomitDispencer\stm8s_conf.h \
+dfplayer.pbi: C:\github\VomitDispencer\dfplayer.c \
+  C:\github\VomitDispencer/dfplayer.h \
   C:\github\VomitDispencer\EWSTM8\..\HAL\uart.h \
-  C:\github\VomitDispencer\dfplayer.h \
-  C:\github\VomitDispencer\dfplayer.c
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s.h \
+  C:\github\VomitDispencer\stm8s_conf.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_adc1.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc/stm8s.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_awu.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_beep.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_clk.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_exti.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_flash.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_gpio.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_i2c.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_itc.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_iwdg.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_rst.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_spi.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_tim1.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_tim2.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_tim4.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_uart1.h \
+  C:\github\VomitDispencer\EWSTM8\..\STM8S_StdPeriph_Driver\inc\stm8s_wwdg.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdbool.h

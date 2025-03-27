@@ -44160,7 +44160,7 @@
     "scope": null
   },
   {
-    "ID": "c:dfplayer.h@30@macro@_DFPLAYER_H_",
+    "ID": "c:dfplayer.h@29@macro@_DFPLAYER_H_",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "_DFPLAYER_H_",
@@ -44416,6 +44416,20 @@
         "name": "CMD_REPEAT",
         "origin": "user_include",
         "scope": null
+      },
+      {
+        "ID": "c:@E@dfplayer_cmd@CMD_GET_TRACKS_NUM",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "CMD_GET_TRACKS_NUM",
+        "location": {
+          "column": "5",
+          "line": "25",
+          "path": "C:\\github\\VomitDispencer\\dfplayer.h"
+        },
+        "name": "CMD_GET_TRACKS_NUM",
+        "origin": "user_include",
+        "scope": null
       }
     ],
     "location": {
@@ -44434,7 +44448,7 @@
     "display": "enum dfplayer_cmd",
     "location": {
       "column": "3",
-      "line": "25",
+      "line": "26",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_cmd_t",
@@ -44454,7 +44468,7 @@
         "display": "REPEAT",
         "location": {
           "column": "5",
-          "line": "28",
+          "line": "29",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "REPEAT",
@@ -44468,7 +44482,7 @@
         "display": "FOLDER_REPAT",
         "location": {
           "column": "5",
-          "line": "29",
+          "line": "30",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "FOLDER_REPAT",
@@ -44482,7 +44496,7 @@
         "display": "SINGLE_REPAT",
         "location": {
           "column": "5",
-          "line": "30",
+          "line": "31",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "SINGLE_REPAT",
@@ -44496,7 +44510,7 @@
         "display": "RANDOM",
         "location": {
           "column": "5",
-          "line": "31",
+          "line": "32",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "RANDOM",
@@ -44506,7 +44520,7 @@
     ],
     "location": {
       "column": "14",
-      "line": "27",
+      "line": "28",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_mode",
@@ -44520,7 +44534,7 @@
     "display": "enum dfplayer_mode",
     "location": {
       "column": "3",
-      "line": "32",
+      "line": "33",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_mode_t",
@@ -44534,7 +44548,7 @@
     "display": "dfplayer",
     "location": {
       "column": "16",
-      "line": "34",
+      "line": "35",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "members": [
@@ -44545,7 +44559,7 @@
         "display": "start",
         "location": {
           "column": "19",
-          "line": "35",
+          "line": "36",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "start",
@@ -44559,7 +44573,7 @@
         "display": "version",
         "location": {
           "column": "19",
-          "line": "36",
+          "line": "37",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "version",
@@ -44573,7 +44587,7 @@
         "display": "length",
         "location": {
           "column": "13",
-          "line": "37",
+          "line": "38",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "length",
@@ -44587,7 +44601,7 @@
         "display": "command",
         "location": {
           "column": "13",
-          "line": "38",
+          "line": "39",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "command",
@@ -44601,7 +44615,7 @@
         "display": "feedback",
         "location": {
           "column": "13",
-          "line": "39",
+          "line": "40",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "feedback",
@@ -44615,7 +44629,7 @@
         "display": "param_H",
         "location": {
           "column": "13",
-          "line": "40",
+          "line": "41",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "param_H",
@@ -44629,7 +44643,7 @@
         "display": "param_L",
         "location": {
           "column": "13",
-          "line": "41",
+          "line": "42",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "param_L",
@@ -44643,7 +44657,7 @@
         "display": "checksum_H",
         "location": {
           "column": "13",
-          "line": "42",
+          "line": "43",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "checksum_H",
@@ -44657,7 +44671,7 @@
         "display": "checksum_L",
         "location": {
           "column": "13",
-          "line": "43",
+          "line": "44",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "checksum_L",
@@ -44671,7 +44685,7 @@
         "display": "end",
         "location": {
           "column": "19",
-          "line": "44",
+          "line": "45",
           "path": "C:\\github\\VomitDispencer\\dfplayer.h"
         },
         "name": "end",
@@ -44690,7 +44704,7 @@
     "display": "struct dfplayer",
     "location": {
       "column": "3",
-      "line": "45",
+      "line": "46",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_t",
@@ -44704,7 +44718,7 @@
     "display": "void dfplayer_init(void)",
     "location": {
       "column": "6",
-      "line": "47",
+      "line": "48",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_init",
@@ -44718,7 +44732,7 @@
     "display": "void dfplayer_init(void)",
     "location": {
       "column": "6",
-      "line": "47",
+      "line": "48",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_init",
@@ -44732,7 +44746,7 @@
     "display": "uint16_t dfplayer_get_tracks(void)",
     "location": {
       "column": "10",
-      "line": "49",
+      "line": "50",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_get_tracks",
@@ -44746,7 +44760,7 @@
     "display": "uint16_t dfplayer_get_tracks(void)",
     "location": {
       "column": "10",
-      "line": "49",
+      "line": "50",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_get_tracks",
@@ -44760,7 +44774,7 @@
     "display": "void dfplayer_set_volume(uint8_t)",
     "location": {
       "column": "6",
-      "line": "50",
+      "line": "51",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_set_volume",
@@ -44774,7 +44788,7 @@
     "display": "void dfplayer_set_volume(uint8_t)",
     "location": {
       "column": "6",
-      "line": "50",
+      "line": "51",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_set_volume",
@@ -44788,7 +44802,7 @@
     "display": "void dfplayer_standby(void)",
     "location": {
       "column": "6",
-      "line": "51",
+      "line": "52",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_standby",
@@ -44802,7 +44816,7 @@
     "display": "void dfplayer_standby(void)",
     "location": {
       "column": "6",
-      "line": "51",
+      "line": "52",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_standby",
@@ -44816,7 +44830,7 @@
     "display": "void dfplayer_wakeup(void)",
     "location": {
       "column": "6",
-      "line": "52",
+      "line": "53",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_wakeup",
@@ -44830,7 +44844,7 @@
     "display": "void dfplayer_wakeup(void)",
     "location": {
       "column": "6",
-      "line": "52",
+      "line": "53",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_wakeup",
@@ -44844,7 +44858,7 @@
     "display": "void dfplayer_reset(void)",
     "location": {
       "column": "6",
-      "line": "53",
+      "line": "54",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_reset",
@@ -44858,7 +44872,7 @@
     "display": "void dfplayer_reset(void)",
     "location": {
       "column": "6",
-      "line": "53",
+      "line": "54",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_reset",
@@ -44872,7 +44886,7 @@
     "display": "void dfplayer_set_track(uint16_t)",
     "location": {
       "column": "6",
-      "line": "54",
+      "line": "55",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_set_track",
@@ -44886,7 +44900,7 @@
     "display": "void dfplayer_set_track(uint16_t)",
     "location": {
       "column": "6",
-      "line": "54",
+      "line": "55",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_set_track",
@@ -44900,7 +44914,7 @@
     "display": "void dfplayer_set_SD(void)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "56",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_set_SD",
@@ -44914,7 +44928,7 @@
     "display": "void dfplayer_set_SD(void)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "56",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_set_SD",
@@ -44928,7 +44942,7 @@
     "display": "void dfplayer_play(void)",
     "location": {
       "column": "6",
-      "line": "56",
+      "line": "57",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_play",
@@ -44942,7 +44956,7 @@
     "display": "void dfplayer_play(void)",
     "location": {
       "column": "6",
-      "line": "56",
+      "line": "57",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_play",
@@ -44956,7 +44970,7 @@
     "display": "void dfplayer_playback_mode(dfplayer_mode_t)",
     "location": {
       "column": "6",
-      "line": "57",
+      "line": "58",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_playback_mode",
@@ -44970,7 +44984,7 @@
     "display": "void dfplayer_playback_mode(dfplayer_mode_t)",
     "location": {
       "column": "6",
-      "line": "57",
+      "line": "58",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_playback_mode",
@@ -44984,7 +44998,7 @@
     "display": "bool dfplayer_wait_for_init(void)",
     "location": {
       "column": "6",
-      "line": "58",
+      "line": "59",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_wait_for_init",
@@ -44998,7 +45012,7 @@
     "display": "bool dfplayer_wait_for_init(void)",
     "location": {
       "column": "6",
-      "line": "58",
+      "line": "59",
       "path": "C:\\github\\VomitDispencer\\dfplayer.h"
     },
     "name": "dfplayer_wait_for_init",
@@ -45146,7 +45160,7 @@
     "scope": null
   },
   {
-    "ID": "c:dfplayer.c@2235@F@dfplayer_get_tracks@n",
+    "ID": "c:dfplayer.c@2249@F@dfplayer_get_tracks@n",
     "What": "Variable",
     "defdec": "Def",
     "display": "n",
@@ -45286,7 +45300,7 @@
     "scope": null
   },
   {
-    "ID": "c:dfplayer.c@3042@F@dfplayer_wait_for_init@response",
+    "ID": "c:dfplayer.c@3056@F@dfplayer_wait_for_init@response",
     "What": "Variable",
     "defdec": "Def",
     "display": "response",
@@ -45440,13 +45454,55 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@223@macro@VOLUME",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "VOLUME",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\github\\VomitDispencer\\main.c"
+    },
+    "name": "VOLUME",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@tracks",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tracks",
+    "location": {
+      "column": "10",
+      "line": "11",
+      "path": "C:\\github\\VomitDispencer\\main.c"
+    },
+    "name": "tracks",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@n",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "n",
+    "location": {
+      "column": "10",
+      "line": "12",
+      "path": "C:\\github\\VomitDispencer\\main.c"
+    },
+    "name": "n",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "11",
+      "line": "13",
       "path": "C:\\github\\VomitDispencer\\main.c"
     },
     "name": "main",
@@ -45460,7 +45516,7 @@
     "display": "void assert_failed(uint8_t *, uint32_t)",
     "location": {
       "column": "6",
-      "line": "36",
+      "line": "40",
       "path": "C:\\github\\VomitDispencer\\main.c"
     },
     "name": "assert_failed",

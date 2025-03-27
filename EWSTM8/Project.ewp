@@ -10660,6 +10660,9 @@
     <group>
         <name>StdPeriph_Drivers</name>
         <file>
+            <name>$PROJ_DIR$\..\STM8S_StdPeriph_Driver\src\stm8s_clk.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\STM8S_StdPeriph_Driver\src\stm8s_exti.c</name>
         </file>
         <file>
@@ -10687,7 +10690,4 @@
             <name>$PROJ_DIR$\..\stm8s_it.c</name>
         </file>
     </group>
-    <file>
-        <name>$PROJ_DIR$\..\STM8S_StdPeriph_Driver\src\stm8s_clk.c</name>
-    </file>
 </project>

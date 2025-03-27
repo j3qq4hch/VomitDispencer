@@ -1,6 +1,6 @@
 {
   "configs": {
-    "${workspaceFolder}\\EWSTM8\\Project.ewp": "STM8S208"
+    "${workspaceFolder}\\EWSTM8\\Project.ewp": "VomitDispenser"
   },
   "project": {
     "path": "${workspaceFolder}\\EWSTM8\\Project.ewp"
